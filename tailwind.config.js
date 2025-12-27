@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+cat > tailwind.config.js << 'EOF'
 export default {
   content: [
     "./index.html",
@@ -9,3 +9,4 @@ export default {
   },
   plugins: [],
 }
+EOF
